@@ -1,0 +1,12 @@
+﻿# Data files (keep repo light, raw data often too large/sensitive for GitHub)
+data/raw/*.csv
+data/raw/*.xlsx
+!data/raw/.gitkeep
+
+# Environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
